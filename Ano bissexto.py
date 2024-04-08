@@ -8,7 +8,7 @@
 -   não pode ser divisivel por 100 a nao ser que seja por 400.
 """
 
-ano = int(input("Informe o ano"))
+ano = int(input("Informe o ano:"))
 
 if ano % 4==0 or ano % 400==0:
     print("esse ano é bissexto")
